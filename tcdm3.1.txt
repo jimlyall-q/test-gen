@@ -1,0 +1,15 @@
+1
+
+11.9.7-1
+
+if (PICS_WIFI) Query MaxNetworks
+
+Verify it is of type uint8
+
+2
+
+11.9.7-2
+
+if (PICS_WIFI) Query Networks
+
+Verify it is of type List

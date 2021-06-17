@@ -1,0 +1,17 @@
+1
+
+4.13.4-2
+
+TH sends a single message to DUT with a message size equal to MRP_MAX_MESSAGE_SIZE and reliability bit set to 1
+
+Verify DUT responds with an acknowledgement of receipt.
+
+2
+
+4.13.4-2
+
+TH sends a single message to DUT with a message size larger then MRP_MAX_MESSAGE_SIZE and reliability bit set to 1
+
+Verify DUT responds with an error message CHIP_ERROR_MESSAGE_TOO_LONG
+
+Verify DUT aborts the MRP connection

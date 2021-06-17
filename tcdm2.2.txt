@@ -1,0 +1,31 @@
+1
+
+11.22.6-1
+
+Query OperationalCerts
+
+Verify it is of type List
+
+2
+
+11.22.6-2
+
+Query Fabrics
+
+Verify it is of type List
+
+3
+
+11.22.6-3
+
+Query SupportedFabrics
+
+Verify it is of type uint8
+
+4
+
+11.22.6-4
+
+Query CommissionedFabrics
+
+Verify it is of type uint8

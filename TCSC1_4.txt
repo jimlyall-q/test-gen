@@ -1,0 +1,15 @@
+1
+
+4.13.4.2-1
+
+Simulate TH to ignore all messages received by DUT (100% message loss)
+
+no desc
+
+2
+
+4.13.4.2-1
+
+DUT sends messages to TH with Reliability bit set to 1, after the maximum number X of failed attempts has reached, DUT sends a message
+
+Verify the Exchange associated with that last dropped message is closed and a CHIP_ERROR_MESSAGE_NOT_ACKNOWLEDGED error is signaled to the application layer on DUT

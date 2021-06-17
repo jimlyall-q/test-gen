@@ -1,0 +1,1 @@
+from .tcdd import tcddTestSuite

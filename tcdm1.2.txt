@@ -1,0 +1,31 @@
+1
+
+11.2.3.2-0
+
+Reboot the DUT
+
+Verify that the DUT sends the StartUp event before other events to TH
+
+2.a
+
+11.2.3.2-1
+
+Shut down the DUT
+
+Verify that the DUT sends the ShutDown event to TH before shutting down. No other event from the DUT should be sent to TH.
+
+2.b
+
+11.2.3.2-1
+
+Send events/messages to DUT from TH
+
+Verify that the messages sent to the DUT are dropped
+
+3
+
+11.2.3.2-2
+
+Factory Reset the DUT
+
+Verify that the DUT sends the Leave event to TH. No more events from DUT should be sent. Verify incoming messages to DUT are dropped.

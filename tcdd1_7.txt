@@ -1,0 +1,15 @@
+1
+
+5.1.2.2
+
+Scan the DUT’s QR code using a QR code reader
+
+Verify the QR code gets scanned successfully. Verify The QR code must be of sufficient size and contrast respective to surface material as to be readable with standard readers such as smartphones in normal lighting conditions. Refer to spec 5.1.2.2 “Example QR Code Sizes and Payloads”
+
+2
+
+5.1.2.2
+
+Verify QR code version
+
+QR code version must be of version 1 or higher

@@ -1,0 +1,71 @@
+1
+
+Initiator
+
+Initiator generates a 32 byte random value, constructs and sends PBKDFParamRequest
+
+Responder receives PBKDFParamRequest
+
+2
+
+Responder
+
+Responder generates a 32 byte random value, constructs crypto parameter set, and sends PBKDFParamResponse
+
+Initiator receives PBKDFParamResponse
+
+3.a
+
+Initiator
+
+Initiator chooses a session identifier
+
+Session identifier uses the session key key type (refer to spec 4.3.3.7) Session identifier does not overlap with any existing PASE or CASE key identifier in use at the initiator
+
+3.b
+
+Initiator
+
+Initiator constructs and sends PAKE_1
+
+Responder receives PAKE_1
+
+4.a
+
+Responder
+
+Responder chooses a session identifier
+
+Session identifier uses the session key key type (refer to spec 4.3.3.7) Session identifier does not overlap with any existing PASE or CASE key identifier in use at the initiator
+
+4.b
+
+Responder
+
+Responder constructs and sends PAKE_2
+
+Initiator receives PAKE_2
+
+5.a
+
+Initiator
+
+Initiator validates PAKE_2
+
+Verification succeeds. If If verification fails, the initiator responds with a PAKE_Error with error code InvalidKeyConfirmation
+
+5.b
+
+Initiator
+
+Initiator constructs and sends PAKE_3
+
+Responder receives PAKE_3
+
+6
+
+Responder
+
+Responder validates PAKE_3
+
+Verification succeeds. If If verification fails, the responder responds with a PAKE_Error with error code InvalidKeyConfirmation

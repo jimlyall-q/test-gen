@@ -1,0 +1,101 @@
+1
+
+TC-SC-1.1
+
+MRP Retransmission Messaging
+
+2
+
+TC-SC-1.2
+
+MRP Max Messaging Size Verification
+
+3
+
+TC-SC-1.3
+
+MRP Message Flows
+
+4
+
+TC-SC-1.4
+
+MRP Max Number of Failed Attempts Verification
+
+5
+
+TC-SC-1.5
+
+MRP Message Counter and and Duplicate Messaging Verification
+
+6
+
+TC-SC-2.1
+
+PASE Session Establishment
+
+7
+
+TC-SC-2.2
+
+PASE Bidirectional Connection Session Establishment
+
+8
+
+TC-SC-3.1
+
+CASE Session Establishment
+
+9
+
+TC-SC-3.2
+
+CASE Session Resumption
+
+10
+
+TC-SC-4.1
+
+Commissionable Node Discovery - Commissionee Case
+
+11
+
+TC-SC-4.2
+
+Commissionable Node Discovery - Commissioner Case
+
+12
+
+TC-SC-4.3
+
+Operational Discovery - Node
+
+13
+
+TC-SC-4.4
+
+Operational Discovery - Controller
+
+14
+
+TC-SC-4.5
+
+Operational Discovery - Thread Node
+
+15
+
+TC-SC-4.6
+
+Operational Discovery - Thread Controller
+
+16
+
+TC-SC-4.7
+
+Commissioner Discovery - Commissioner
+
+17
+
+TC-SC-4.8
+
+Commissioner Discovery - Commissionee

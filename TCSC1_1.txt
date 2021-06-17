@@ -1,0 +1,63 @@
+1.a
+
+no ref
+
+Configure TH/DUT to accept all packets received (no loss scenario)
+
+no desc
+
+1.b
+
+4.14.3-1,4.3.4.1 (flags),4.3.4.6 (Ack Message Counter)
+
+TH sends a single reliable (R flag set) message to DUT
+
+Verify DUT responds with an acknowledgement message with the A flag set and the Acknowledged Message Counter field set to the Message Counter of the received message.
+
+2.a
+
+no ref
+
+Configure TH to ignore the first packet received (partial packet loss scenario)
+
+no desc
+
+2.b
+
+4.14.3-1
+
+TH sends a single reliable (R flag set) message to DUT
+
+Verify TH ignores acknowledgement of receipt from DUT
+
+2.c
+
+4.14.3-1,4.14.10,4.2.2.5
+
+Configure the TH to accept all packets received (no loss scenario). TH sends the same message as in step 2.b after waiting for MRP_RETRY_INTERVAL_IDLE milliseconds.
+
+Verify TH receives an acknowledgement from the DUT with the A flag set and the Acknowledged Message Counter field set to the Message Counter of the received message.
+
+3.a
+
+no ref
+
+Configure TH to ignore all packets received (100% packet loss)
+
+no desc
+
+3.b
+
+4.14.3-1
+
+TH sends a single reliable (R flag set) message to DUT
+
+Verify TH ignores acknowledgement of receipt from DUT
+
+3.c
+
+4.14.3-1,4.14.10
+
+TH sends the same message as in step 3.b after waiting for MRP_RETRY_INTERVAL_IDLE milliseconds.
+
+Verify TH ignores all acknowledgement of receipt from DUT until the maximum number of retransmissions have been sent, as defined by MRP_MAX_TRANSMISSIONS.

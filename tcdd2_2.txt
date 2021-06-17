@@ -1,0 +1,103 @@
+1.a
+
+
+
+5.4.3.1
+
+If (PICS_BLE) TH start matter announcement procedure using BLE transport
+
+TH must start sending BLE advertisements.
+
+1.b
+
+
+
+5.4.3.1
+
+If (PICS_BLE) DUT start BLE scan
+
+DUT must find TH and provide onboarding data to for validation.
+
+Pass Criteria: DUT is able to report the Onboarding payload as set on TH
+
+2.a
+
+
+
+5.4.3.1
+
+If (PICS_BLE) DUT start scan in background using BLE transport
+
+Missing description
+
+2.b
+
+5.4.3.1
+
+If (PICS_BLE) TH start matter announcement using BLE transport
+
+TH must start sending BLE advertisements.
+
+2.c
+
+
+
+5.4.3.1
+
+missing test step
+
+DUT must find TH and provide onboarding data for validation.
+
+Pass Criteria: DUT is able to report the Onboarding payload as set on TH
+
+3.a
+
+
+
+5.4.3.2
+
+If (PICS_WIFI) TH start SoftAP and begin matter announcement procedure
+
+TH must start SoftAP using Wi-Fi transport
+
+3.b
+
+
+
+5.4.3.2
+
+If (PICS_WIFI) DUT start Wi-Fi scan
+
+DUT must find TH and provide onboarding data for validation.
+
+Pass Criteria: DUT is able to report the Onboarding payload as set on TH
+
+4.a
+
+
+
+5.4.3.2
+
+If (PICS_WIFI) DUT scan using Wi-Fi in background
+
+missing description
+
+4.b
+
+
+
+5.4.3.2
+
+If (PICS_WIFI) TH start SoftAP and begin matter announcement procedure
+
+TH must start SoftAP using Wi-Fi transport
+
+4.c
+
+
+
+5.4.3.2
+
+DUT must find TH and provide onboarding data for validation.
+
+Pass Criteria: DUT is able to report the Onboarding payload as set on TH

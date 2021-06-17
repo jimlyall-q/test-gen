@@ -1,0 +1,71 @@
+1
+
+TC-DD-1.1
+
+QR Code Onboarding Payload Verification
+
+2
+
+TC-DD-1.2
+
+Manual Pairing Code Verification
+
+3
+
+TC-DD-1.3
+
+NFC Onboarding Payload Verification
+
+4
+
+TC-DD-1.4
+
+QR Code Onboarding Payload Verification - Concatenation
+
+5
+
+TC-DD-1.6
+
+NFC Rules of Advertisement and Onboarding
+
+6
+
+TC-DD-1.7
+
+QR Code Format and Label
+
+7
+
+TC-DD-1.8
+
+Setup Code Format and Label
+
+8
+
+TC-DD-2.1
+
+Announcement by Device Verification
+
+9
+
+TC-DD-2.2
+
+Discovery by Commissioner Verification
+
+10
+
+TC-DD-3.1
+
+Commissioning Flow - Concurrent
+
+11
+
+TC-DD-3.2
+
+Commissioning Flow - Non-concurrent
+
+12
+
+TC-DD-4.1
+
+Operational Certificate Authority Verification

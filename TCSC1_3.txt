@@ -1,0 +1,55 @@
+1
+
+4.13.7.1-1
+
+TH sends a reliable (R flag set) MRP message to DUT that requires a data response.
+
+DUT must receive the message.
+
+2
+
+4.13.7.1-1
+
+DUT must respond to the message with a MRP reply packet that piggybacks the ACK(A flag set).
+
+DUT should piggyback the ACKs of the message in the reply to TH.
+
+3
+
+4.13.7.1-2
+
+TH sends a reliable (R flag set) MRP message to DUT that doesn’t require a data response.
+
+DUT must receive the message.
+
+4
+
+4.13.7.1-2
+
+DUT must respond to the message with an ACK message.
+
+DUT must sent only the ACK packet to TH.
+
+5
+
+4.13.7.2-1
+
+TH sends 5 unreliable (R flag not set) MRP messages to DUT that requires a data response.
+
+DUT may receive the messages.
+
+6
+
+4.13.7.2-2
+
+DUT must respond to the message with a MRP reply packet that doesn’t piggyback the ACK(A flag not set).
+
+DUT should send only a MRP reply packet to TH with no ACK piggybacked or sent in a separate message.
+
+7
+
+4.13.7.3-1
+
+TH sends a reliable MRP message that contains an invalid request with R flag set.
+
+DUT should send only an ACK to TH and no other packet signaling that the MRP session was closed.

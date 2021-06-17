@@ -1,0 +1,35 @@
+1
+
+TC-DM-1.1
+
+Basic Information Cluster Server Attributes
+
+2
+
+TC-DM-1.2
+
+Basic Information Cluster Events
+
+3
+
+TC-DM-2.1
+
+Operational Credentials Cluster Commands
+
+4
+
+TC-DM-2.2
+
+Operational Credentials Cluster Attributes
+
+5
+
+TC-DM-3.1
+
+Network Commissioning Cluster Attributes
+
+6
+
+TC-DM-3.2
+
+Network Commissioning Cluster Commands

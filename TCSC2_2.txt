@@ -1,0 +1,39 @@
+1
+
+Initiator
+
+Initiator uses I2RKey to encrypt and send a message
+
+Responder receives the encrypted message
+
+2
+
+Responder
+
+Responder uses R2IKey to decrypt the message
+
+Responder is able to decrypt the message
+
+3
+
+Responder
+
+Responder uses I2RKey to encrypt and send a message
+
+Initiator receives the encrypted message
+
+4
+
+Initiator
+
+Initiator uses R2IKey to decrypt the message
+
+Initiator is able to decrypt the message
+
+5
+
+All
+
+An error is encountered in initiator or responder decryption
+
+Session is terminated and keys are cleared from memory

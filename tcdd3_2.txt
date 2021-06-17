@@ -1,0 +1,135 @@
+1.a
+
+5.4.6.1
+
+Commissioner and Commissionee discover each other and connect via the discovery mode applicable for the DUT.
+
+Commissioner and Commissionee can discover each other and connect to each other.
+
+Refer to Discovery test case 6.2.2 (DD-6.2.2) for validation steps.
+
+1.b
+
+5.4.6.1
+
+Establish encryption keys with Password Authenticated Session Establishment on the commissioning channel
+
+Refer to Secure Channel test case 6.2.1 (SC-6.2.1) for validation steps.
+
+1.c
+
+5.4.6.1
+
+Commissioner arms Fail-safe timer on the Commissionee using ArmFailSafe command
+
+Refer to General Commissioning Cluster test case TBD for validation steps (spec 8.11.7.3, 8.11.6.3)
+
+1.d
+
+5.4.6.1
+
+Commissioner configures the Commissionee UTC time, timezone, DST offset, and regulatory information at the Commissionee.
+
+Refer to Time Synchronization Cluster test case TBD (spec 8.18) and General Cluster test case TBD (spec 8.11.7.1) for validation steps.
+
+1.e
+
+5.4.6.1
+
+Commissioner establishes the authenticity of the Commissionee as a certified CHIP device.
+
+Refer to Device Attestation test case TBD (spec 6.1.3) for validation steps.
+
+1.f
+
+5.4.6.1
+
+Commissioner configures Fabric information using SetFabric command.
+
+Refer to General Commissioning Cluster test case TBD for validation steps (spec 8.11.7.1)
+
+1.g
+
+5.4.6.1
+
+Commissioner requests operational CSR from Commissionee with OperationalCSRRequest command
+
+Refer to Operational Credential Cluster test case TBD for validation steps (spec 8.23.7.5)
+
+1.h
+
+5.4.6.1
+
+Commissioner generates or otherwise obtains an Operational Certificate containing Operational ID in response OperationalCSRRequest command using ecosystem-specific means
+
+Refer to Operational Credential Cluster test case TBD for validation steps (spec 8.23.7.5)
+
+1.i
+
+5.4.6.1
+
+Commissioner configures operational credentials
+
+Refer to Operational Credential Cluster test case TBD for validation steps (spec 8.23.7.5)
+
+1.j
+
+5.4.6.1
+
+Commissioner configures ACL.
+
+Refer to Access Control List Cluster test case TBD for validation steps (spec 7.4.9)
+
+1.k
+
+5.4.6.1
+
+Commissioner configures the operational network at the Commissionee.
+
+Refer to Network Commissioning Cluster test case TBD for validation steps (spec 8.10.8.*)
+
+1.l
+
+5.4.6.1
+
+Commissioner triggers the Commissionee to connect to the operational network
+
+Verify if the device is on the network by checking for the device on the network.
+
+Refer to Network Commissioning Cluster test case TBD for further validation steps (spec 8.10.8.14)
+
+1.m
+
+5.4.6.1
+
+Commissioner and Commissionee discover each other on the operational network using operational discovery
+
+Refer to Secure Channel test case TBD for further validation steps (spec 4.2.2)
+
+1.n
+
+5.4.6.1
+
+Commissioner and Commissionee establish encryption keys with CASE
+
+Refer to Secure Channel test case TBD for further validation steps (spec 4.13.2)
+
+1.o
+
+5.4.6.1
+
+Commissioner and Commissionee perform commissioning complete message exchange using CommissioningComplete command and CommissioningCompleteResponse command
+
+Verify if both Commissioner and Commissionee can talk to each other.
+
+Verify that the commissioning connection is terminated.
+
+Refer to General Commissioning Cluster test case TBD for validation steps (spec 8.11.7)
+
+2.a
+
+5.4.6.1
+
+Same steps as 1.a. Force exit any step in 1..
+
+The Commissioner and Commissionee terminate commissioning. Should go back to step 1a and start commissioning again.

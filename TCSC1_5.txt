@@ -1,0 +1,15 @@
+1.a
+
+4.13.4.2-1
+
+TH sends duplicate message to DUT with reliability bit set to 1. Messages sent have the same message counter
+
+Verify the DUT detects the duplicate messages and discards the additional duplicate messages
+
+1.b
+
+4.13.4.2-1
+
+no test step
+
+Verify the DUT sends an acknowledgement message to the TH for the initial instance of the authenticated message

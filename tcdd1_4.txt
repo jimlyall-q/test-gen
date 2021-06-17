@@ -1,0 +1,7 @@
+1
+
+5.1.5 Concatenation
+
+If supported, scan larger QR code that will support the commissioning of all the DUTs in the packaging using the QR code scanner
+
+Verify that each DUT onboarding payload is delimited with a * depending on the number of DUTs that will be onboarded. example: CH:<onboarding-base-38-content_bulb1>*<onboarding-base-38-content_bulb2>*<onboarding-base-38-content_bulb3>*<onboarding-base-38-content_bulb4>

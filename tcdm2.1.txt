@@ -1,0 +1,94 @@
+1
+
+11.22.7
+
+Start commissioning between DUT and TH
+
+No outcome
+
+2
+
+11.22.7
+
+DUT Sends Attestation Request to TH
+
+Verify the request is successful and TH responds with Attestation Response.
+
+3
+
+11.22.7
+
+DUT Sends Attestation Certificate Chain Request to TH
+
+Verify the request is successful and TH responds with Certificate Chain Response.
+
+4
+
+11.22.7
+
+DUT Sends CSR Request to TH
+
+Verify the request is successful and TH responds with CSR Response.
+
+5.a
+
+11.22.7
+
+DUT Sends Add Op Cert Request to TH
+
+Verify the request is successful and TH responds with Op Cert Response.
+
+5.b
+11.22.7
+
+DUT Sends Add Op Cert Request to TH
+
+Verify DUT and TH are on the same Fabric
+
+6
+
+11.22.7
+
+DUT Sends Update Op Cert Request to TH
+
+Verify the request is successful and TH responds with Op Cert Response.
+
+7
+
+11.22.7
+
+DUT Sends Update Op Cert Request to TH with a Fabric Label not already in use
+
+Verify the request is successful and TH responds with Op Cert Response.
+
+8
+
+11.22.7
+
+DUT Sends Update Op Cert Request to TH with a Fabric label already in use
+
+Verify the request is successful and TH responds with Op Cert Response including an error “Label Conflict”
+
+9
+
+11.22.7
+
+DUT Sends Remove Fabric Request to TH with a non-Valid Fabric ID
+
+Verify the request is successful and TH responds with Op Cert Response including an error “Invalid Fabric Index”.
+
+10
+
+11.22.7.12
+
+DUT Sends Remove Fabric Request to TH with a non-Valid Fabric index
+
+Verify the request is successful and TH responds with Op Cert Response including an error “Invalid Fabric Index”
+
+11
+
+11.22.7.12
+
+DUT Sends Remove Fabric Request to TH with a non-Valid Fabric ID
+
+Verify the request is successful and TH responds with Op Cert Response

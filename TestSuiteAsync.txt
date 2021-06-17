@@ -1,0 +1,16 @@
+TestSuiteAsync
+
+TCTROptionsSelectUserPrompt
+
+{
+  "name": "Test Prompt",
+  "dut_name": "doesn't matter",
+  "selected_tests": {
+      "tool_unit_tests": {
+        "TestSuiteAsync": {
+          "TCTROptionsSelectUserPrompt": 1
+        }
+      }
+    },
+  "id": 0
+}

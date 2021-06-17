@@ -1,0 +1,35 @@
+1
+
+4.12.2.3 Initiator
+
+Initiator constructs and sends a TLV-encoded Sigma1_Resume message containing a random initiation value, destination identifier, resumption identifier, resumption message integrity check (MIC), and public key for its ephemeral key pair.
+
+Responder receives the message.
+
+2
+
+Responder
+
+Responder validates the resumption identifier contained in the message.
+
+If the resumption identifier matches the responder generated resumption identifier, the responder proceeds to generate a Sigma2_Resume message.
+
+If the resumption identifier does not match the responder generated value, the responder treats the message as a Sigma1 message and follows the process in test case 6.3.1.
+
+3
+
+Responder
+
+Responder constructs and sends a TLV-encoded Sigma2_Resume message containing a random responder value, responder resumption id, responder resumption MIC, and public key for its responder ephemeral key pair.
+
+Initiator receives the message.
+
+4
+
+Initiator
+
+Initiator validates the responder resumption MIC contained in the message.
+
+If the responder resumption MIC matches the initiator generated resumption MIC, then the initiator generates session keys and the session is established.
+
+If the responder resumption MIC does not match the initiator resumption MIC, then the initiator sends a SigmaError message with the InvalidParameter error code and performs no further processing.
